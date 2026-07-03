@@ -6,11 +6,22 @@
 
 All three return the same dict: trajectory, converged, iterations,
 final_efforts.
+
+A run counts as converged when the profile it reached is a fixed point of
+the best response map. A small last step is not enough on its own: efforts
+collapsing towards the lower bound take tiny steps while sitting nowhere
+near an equilibrium. Since x = (1-lam)x + lam*BR(x) exactly when x = BR(x),
+the same test works for all three rules.
 """
 
 import numpy as np
 
 from src.best_response import compute_best_response, compute_all_best_responses
+
+
+def _at_fixed_point(contest, efforts, tolerance):
+    residual = compute_all_best_responses(contest, efforts) - efforts
+    return np.max(np.abs(residual)) < tolerance
 
 
 def _result(trajectory, converged):
@@ -35,7 +46,7 @@ def run_synchronous(contest, initial_efforts, max_iterations=1000,
         trajectory.append(new_efforts.copy())
         efforts = new_efforts
 
-        if max_change < tolerance:
+        if max_change < tolerance and _at_fixed_point(contest, efforts, tolerance):
             return _result(trajectory, True)
 
     return _result(trajectory, False)
@@ -57,7 +68,8 @@ def run_asynchronous(contest, initial_efforts, max_iterations=1000,
 
         trajectory.append(efforts.copy())
 
-        if np.max(np.abs(efforts - previous)) < tolerance:
+        if (np.max(np.abs(efforts - previous)) < tolerance
+                and _at_fixed_point(contest, efforts, tolerance)):
             return _result(trajectory, True)
 
     return _result(trajectory, False)
@@ -82,7 +94,7 @@ def run_inertial(contest, initial_efforts, lam=0.5, max_iterations=1000,
         trajectory.append(new_efforts.copy())
         efforts = new_efforts
 
-        if max_change < tolerance:
+        if max_change < tolerance and _at_fixed_point(contest, efforts, tolerance):
             return _result(trajectory, True)
 
     return _result(trajectory, False)
