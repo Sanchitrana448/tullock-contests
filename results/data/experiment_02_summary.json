@@ -1,0 +1,27 @@
+{
+  "0.5": {
+    "convergence_rate": 1.0,
+    "mean_iterations": 4.25,
+    "mean_total_effort": 2.5000000051887485
+  },
+  "1.0": {
+    "convergence_rate": 1.0,
+    "mean_iterations": 5.25,
+    "mean_total_effort": 5.000000062120286
+  },
+  "1.5": {
+    "convergence_rate": 1.0,
+    "mean_iterations": 10.15,
+    "mean_total_effort": 7.5000000600641075
+  },
+  "2.0": {
+    "convergence_rate": 0.0,
+    "mean_iterations": null,
+    "mean_total_effort": null
+  },
+  "3.0": {
+    "convergence_rate": 0.0,
+    "mean_iterations": null,
+    "mean_total_effort": null
+  }
+}
