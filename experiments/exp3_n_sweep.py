@@ -7,7 +7,7 @@ Figures 7-9.
 import matplotlib.pyplot as plt
 import numpy as np
 
-from common import DATA_DIR, banner, save_json
+from common import DATA_DIR, banner, checkpoint, save_json
 from src.contest import TullockContest
 from src.dynamics import run_synchronous
 from src.plots import save_figure
@@ -50,8 +50,12 @@ for n in N_VALUES:
     contest = TullockContest(n=n, r=R, valuations=[V] * n)
     x_star = contest.analytical_symmetric_equilibrium()
 
+    # Drawn outside the checkpoint so the random stream advances the same
+    # way whether or not this cell comes back from cache.
     initials = [rng.uniform(0.1, V * 0.8, size=n) for _ in range(N_SEEDS)]
-    summary[n] = sweep_one_n(contest, initials, x_star)
+
+    summary[n] = checkpoint(
+        f"exp03_n{n}", lambda: sweep_one_n(contest, initials, x_star))
 
     print(f"n={n:2d} | Conv. rate: {summary[n]['convergence_rate'] * 100:3.0f}% | "
           f"Mean iters: {summary[n]['mean_iterations']:8.1f} | "

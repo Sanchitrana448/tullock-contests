@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = ROOT / "results"
 FIGURE_DIR = RESULTS_DIR / "figures"
 DATA_DIR = RESULTS_DIR / "data"
+CACHE_DIR = DATA_DIR / "cache"
+
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -46,6 +48,26 @@ def save_json(data, path):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(_jsonable(data), indent=2))
     return path
+
+
+def checkpoint(name, compute):
+    """Compute a sweep cell once and reuse it afterwards.
+
+    The big cells take minutes, so an interrupted run would otherwise start
+    over. Initial conditions are drawn by the caller before compute() runs,
+    so the random stream advances the same way either way. Delete
+    results/data/cache to force a clean recomputation.
+    """
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    path = CACHE_DIR / f"{name}.json"
+
+    if path.exists():
+        print(f"  (reusing cached {name})")
+        return json.loads(path.read_text())
+
+    value = compute()
+    path.write_text(json.dumps(value))
+    return value
 
 
 def banner(text):
