@@ -2,7 +2,7 @@
 
 import numpy as np
 
-from src.best_response import compute_all_best_responses
+from src.best_response import EFFORT_MIN, compute_all_best_responses
 from src.contest import TullockContest
 from src.dynamics import run_synchronous
 
@@ -103,23 +103,29 @@ def rent_dissipation_analysis(contest, stats):
     }
 
 
-def eigenvalue_stability(contest, equilibrium_efforts, delta=1e-5):
+def eigenvalue_stability(contest, equilibrium_efforts, delta=1e-4):
     """Local stability from the spectral radius of the best response Jacobian.
 
     Below 1 the map is a local contraction and synchronous dynamics are
     locally attracting, which is the Szidarovszky and Okuguchi (1997)
-    condition in computable form. J is estimated by finite differences.
+    condition in computable form.
+
+    J is estimated by central differences. One-sided differences divide the
+    solver's own numerical noise by delta, which was enough to move the
+    third decimal place.
     """
     n = contest.n
     x0 = np.array(equilibrium_efforts, dtype=float)
-    baseline = compute_all_best_responses(contest, x0)
 
     jacobian = np.zeros((n, n))
     for j in range(n):
         forward = x0.copy()
+        backward = x0.copy()
         forward[j] += delta
+        backward[j] = max(x0[j] - delta, EFFORT_MIN)  # efforts stay positive
+        step = forward[j] - backward[j]
         jacobian[:, j] = (compute_all_best_responses(contest, forward)
-                          - baseline) / delta
+                          - compute_all_best_responses(contest, backward)) / step
 
     eigenvalues = np.linalg.eigvals(jacobian)
     spectral_radius = np.max(np.abs(eigenvalues))
