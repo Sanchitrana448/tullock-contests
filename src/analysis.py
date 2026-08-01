@@ -86,11 +86,13 @@ def benchmark_deviation(contest, stats):
 def rent_dissipation_analysis(contest, stats):
     """Share of the prize burned as effort at the simulated equilibrium.
 
+    There is one prize; the valuations are n views of it, not n prizes, so
+    total effort is compared against the mean valuation rather than the sum.
     A ratio above 1 is over-dissipation.
     """
     efforts = stats['mean_final_efforts']
     total_effort = np.sum(efforts)
-    prize_value = float(np.sum(contest.valuations))
+    prize_value = float(np.mean(contest.valuations))
 
     return {
         'total_effort': total_effort,
