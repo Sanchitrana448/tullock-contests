@@ -105,6 +105,15 @@ def rent_dissipation_analysis(contest, stats):
     }
 
 
+def best_response_residual(contest, efforts):
+    """max_i |BR_i(x) - x_i|. Zero exactly at a Nash equilibrium."""
+    efforts = np.asarray(efforts, dtype=float)
+    if np.any(~np.isfinite(efforts)):
+        return np.inf
+    return float(np.max(np.abs(compute_all_best_responses(contest, efforts)
+                               - efforts)))
+
+
 def eigenvalue_stability(contest, equilibrium_efforts, delta=1e-4):
     """Local stability from the spectral radius of the best response Jacobian.
 
@@ -114,7 +123,8 @@ def eigenvalue_stability(contest, equilibrium_efforts, delta=1e-4):
 
     J is estimated by central differences. One-sided differences divide the
     solver's own numerical noise by delta, which was enough to move the
-    third decimal place.
+    third decimal place. equilibrium_efforts must actually be a fixed point;
+    check with best_response_residual first.
     """
     n = contest.n
     x0 = np.array(equilibrium_efforts, dtype=float)
@@ -140,9 +150,18 @@ def eigenvalue_stability(contest, equilibrium_efforts, delta=1e-4):
     }
 
 
+EQUILIBRIUM_TOLERANCE = 1e-4
+
+
 def generate_full_report(r_values, n_values, V=10.0, n_seeds=30,
-                         max_iterations=500):
-    """Convergence, dissipation and stability for every (n, r) cell."""
+                         max_iterations=500,
+                         equilibrium_tolerance=EQUILIBRIUM_TOLERANCE):
+    """Convergence, dissipation and stability for every (n, r) cell.
+
+    The mean of the converged runs is only an equilibrium if those runs all
+    reached the same one, so each cell is tested against the best response
+    map before it is linearised and reported as unavailable if it fails.
+    """
     report = {}
 
     unavailable = {
@@ -150,6 +169,8 @@ def generate_full_report(r_values, n_values, V=10.0, n_seeds=30,
         'spectral_radius': np.nan,
         'is_stable': None,
         'jacobian': None,
+        'residual': np.nan,
+        'is_equilibrium': False,
     }
 
     for n in n_values:
@@ -159,8 +180,15 @@ def generate_full_report(r_values, n_values, V=10.0, n_seeds=30,
                                            max_iterations=max_iterations)
 
             if stats['n_converged']:
-                eigenvalue = eigenvalue_stability(contest,
-                                                  stats['mean_final_efforts'])
+                mean_profile = stats['mean_final_efforts']
+                residual = best_response_residual(contest, mean_profile)
+
+                if residual <= equilibrium_tolerance:
+                    eigenvalue = eigenvalue_stability(contest, mean_profile)
+                    eigenvalue['residual'] = residual
+                    eigenvalue['is_equilibrium'] = True
+                else:
+                    eigenvalue = dict(unavailable, residual=residual)
             else:
                 eigenvalue = dict(unavailable)
 
@@ -175,7 +203,11 @@ def generate_full_report(r_values, n_values, V=10.0, n_seeds=30,
 
 
 def print_report_summary(report, r_values, n_values):
-    """Print the report as one table per player count."""
+    """Print the report as one table per player count.
+
+    N/A means there is nothing to report: either nothing converged, or the
+    converged runs reached different equilibria whose mean is not one.
+    """
     for n in n_values:
         print(f"\nn = {n} players")
         print("-" * 75)
