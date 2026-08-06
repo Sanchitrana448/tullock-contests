@@ -1,0 +1,3045 @@
+[
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 4.3,
+      "std_iterations": 0.45825756949558405,
+      "min_iterations": 4.0,
+      "max_iterations_val": 5.0,
+      "mean_final_efforts": [
+        1.2500000114454592,
+        1.2499999972699127
+      ],
+      "std_final_efforts": [
+        1.865740427615092e-08,
+        2.7231856845827238e-08
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 1.250000004357686,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 2.500000008715372,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.2500000008715372,
+      "over_dissipation": false,
+      "per_player_effort": [
+        1.2500000114454592,
+        1.2499999972699127
+      ],
+      "per_player_share": [
+        0.5000000028351093,
+        0.4999999971648907
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": 0.0,
+          "imag": 0.0001984595528910956
+        },
+        {
+          "real": 0.0,
+          "imag": -0.0001984595528910956
+        }
+      ],
+      "spectral_radius": 0.0001984595528910956,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.00013661305531266604
+        ],
+        [
+          0.0002883047600655038,
+          0.0
+        ]
+      ],
+      "residual": 3.830815686889366e-08,
+      "is_equilibrium": true
+    },
+    "n": 2,
+    "r": 0.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 5.3,
+      "std_iterations": 0.6403124237432849,
+      "min_iterations": 4.0,
+      "max_iterations_val": 6.0,
+      "mean_final_efforts": [
+        2.5000000361008436,
+        2.500000036105252
+      ],
+      "std_final_efforts": [
+        2.0007718868824804e-08,
+        2.598530063668535e-08
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": 2.5,
+      "simulated_mean": 2.5000000361030477,
+      "absolute_error": 3.6103047662550125e-08,
+      "relative_error_pct": 1.444121906502005e-06
+    },
+    "dissipation": {
+      "total_effort": 5.000000072206095,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.5000000072206096,
+      "over_dissipation": false,
+      "per_player_effort": [
+        2.5000000361008436,
+        2.500000036105252
+      ],
+      "per_player_share": [
+        0.4999999999995592,
+        0.5000000000004409
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": 1.4372337915956383e-05,
+          "imag": 0.0
+        },
+        {
+          "real": -1.4372337915956382e-05,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 1.4372337915956383e-05,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          0.00040924975630487705
+        ],
+        [
+          5.047384732382205e-07,
+          0.0
+        ]
+      ],
+      "residual": 3.3306630342622157e-08,
+      "is_equilibrium": true
+    },
+    "n": 2,
+    "r": 1.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 9.4,
+      "std_iterations": 2.4979991993593593,
+      "min_iterations": 5.0,
+      "max_iterations_val": 11.0,
+      "mean_final_efforts": [
+        3.7500000296153737,
+        3.7500000294898177
+      ],
+      "std_final_efforts": [
+        3.577094617480031e-08,
+        3.555019266127242e-08
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 3.750000029552596,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 7.500000059105192,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.7500000059105192,
+      "over_dissipation": false,
+      "per_player_effort": [
+        3.7500000296153737,
+        3.7500000294898177
+      ],
+      "per_player_share": [
+        0.5000000000083704,
+        0.4999999999916296
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": 4.392900138330592e-05,
+          "imag": 0.0
+        },
+        {
+          "real": -4.3929001383305924e-05,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 4.3929001383305924e-05,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.00027890628251311375
+        ],
+        [
+          -6.919016470859738e-06,
+          0.0
+        ]
+      ],
+      "residual": 3.049959751422193e-08,
+      "is_equilibrium": true
+    },
+    "n": 2,
+    "r": 1.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 2,
+    "r": 2.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 2,
+    "r": 3.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 2,
+    "r": 5.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 10.8,
+      "std_iterations": 0.4,
+      "min_iterations": 10.0,
+      "max_iterations_val": 11.0,
+      "mean_final_efforts": [
+        1.1111110911895996,
+        1.111111086543218,
+        1.111111090944868
+      ],
+      "std_final_efforts": [
+        5.7184587770359045e-08,
+        5.0115906808654487e-08,
+        4.622558225637789e-08
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 1.1111110895592287,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 3.333333268677686,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.3333333268677686,
+      "over_dissipation": false,
+      "per_player_effort": [
+        1.1111110911895996,
+        1.111111086543218,
+        1.111111090944868
+      ],
+      "per_player_share": [
+        0.3333333338224446,
+        0.33333333242853014,
+        0.33333333374902513
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": -0.2001066090805956,
+          "imag": 0.0
+        },
+        {
+          "real": 0.09992542126042811,
+          "imag": 0.0
+        },
+        {
+          "real": 0.10018118782016756,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.2001066090805956,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.09982576349877303,
+          -0.1001742958684048
+        ],
+        [
+          -0.09999856158239276,
+          0.0,
+          -0.10014725673747053
+        ],
+        [
+          -0.10008297356646204,
+          -0.10009094372432906,
+          0.0
+        ]
+      ],
+      "residual": 2.4771920736910147e-08,
+      "is_equilibrium": true
+    },
+    "n": 3,
+    "r": 0.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 21.2,
+      "std_iterations": 2.9933259094191533,
+      "min_iterations": 13.0,
+      "max_iterations_val": 25.0,
+      "mean_final_efforts": [
+        2.222222197689053,
+        2.2222221960344712,
+        2.2222221858944935
+      ],
+      "std_final_efforts": [
+        2.493485526814825e-07,
+        2.3220131780819642e-07,
+        2.4332901540506754e-07
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": 2.2222222222222223,
+      "simulated_mean": 2.222222193206006,
+      "absolute_error": 2.9016216540611595e-08,
+      "relative_error_pct": 1.3057297443275218e-06
+    },
+    "dissipation": {
+      "total_effort": 6.666666579618017,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.6666666579618017,
+      "over_dissipation": false,
+      "per_player_effort": [
+        2.222222197689053,
+        2.2222221960344712,
+        2.2222221858944935
+      ],
+      "per_player_share": [
+        0.33333333400579046,
+        0.33333333375760316,
+        0.3333333322366065
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": -0.4998908204752925,
+          "imag": 0.0
+        },
+        {
+          "real": 0.25009039696228125,
+          "imag": 0.0
+        },
+        {
+          "real": 0.24980042351301127,
+          "imag": 0.0
+        }
+      ],
+      "spectral_radius": 0.4998908204752925,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.2501646860681156,
+          -0.2501646860681156
+        ],
+        [
+          -0.2500001554301132,
+          0.0,
+          -0.2500001554301132
+        ],
+        [
+          -0.24967155736802019,
+          -0.24967155736802019,
+          0.0
+        ]
+      ],
+      "residual": 8.716298616207041e-08,
+      "is_equilibrium": true
+    },
+    "n": 3,
+    "r": 1.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.2,
+      "mean_iterations": 5.0,
+      "std_iterations": 0.0,
+      "min_iterations": 5.0,
+      "max_iterations_val": 5.0,
+      "mean_final_efforts": [
+        3.7499999700301387,
+        1.8749999773594994,
+        1.8750000032997107
+      ],
+      "std_final_efforts": [
+        2.6569282551847095e-08,
+        1.8749999673594995,
+        1.8749999932997108
+      ],
+      "n_converged": 2,
+      "n_diverged": 8
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 2.499999983563116,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 7.499999950689348,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.7499999950689349,
+      "over_dissipation": false,
+      "per_player_effort": [
+        3.7499999700301387,
+        1.8749999773594994,
+        1.8750000032997107
+      ],
+      "per_player_share": [
+        0.49999999929139527,
+        0.24999999862495498,
+        0.2500000020836498
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": 1.7637855962154085,
+      "is_equilibrium": false
+    },
+    "n": 3,
+    "r": 1.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 3,
+    "r": 2.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 3,
+    "r": 3.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 3,
+    "r": 5.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 18.7,
+      "std_iterations": 0.45825756949558394,
+      "min_iterations": 18.0,
+      "max_iterations_val": 19.0,
+      "mean_final_efforts": [
+        0.7999999736115891,
+        0.7999999659352688,
+        0.7999999724675451,
+        0.7999999679533947,
+        0.7999999709065109
+      ],
+      "std_final_efforts": [
+        1.868391853200941e-07,
+        1.862112405594375e-07,
+        1.893879995333355e-07,
+        1.795222298651698e-07,
+        1.7919392484334796e-07
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 0.7999999701748617,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 3.999999850874308,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.39999998508743084,
+      "over_dissipation": false,
+      "per_player_effort": [
+        0.7999999736115891,
+        0.7999999659352688,
+        0.7999999724675451,
+        0.7999999679533947,
+        0.7999999709065109
+      ],
+      "per_player_share": [
+        0.2000000008591819,
+        0.19999999894010176,
+        0.20000000057317088,
+        0.19999999944463323,
+        0.2000000001829123
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": -0.42859144461699605,
+          "imag": 0.0
+        },
+        {
+          "real": 0.10706915996453044,
+          "imag": 6.291825079204446e-05
+        },
+        {
+          "real": 0.10706915996453044,
+          "imag": -6.291825079204446e-05
+        },
+        {
+          "real": 0.10722656234396767,
+          "imag": 2.6426106827733658e-05
+        },
+        {
+          "real": 0.10722656234396767,
+          "imag": -2.6426106827733658e-05
+        }
+      ],
+      "spectral_radius": 0.42859144461699605,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.10726193156563939,
+          -0.10723603410535203,
+          -0.1070239653305889,
+          -0.10726763243763608
+        ],
+        [
+          -0.10708348198608178,
+          0.0,
+          -0.1071429395666075,
+          -0.10708313165909214,
+          -0.10702406437969116
+        ],
+        [
+          -0.10714297793369479,
+          -0.10720229818351816,
+          0.0,
+          -0.10702373245298281,
+          -0.10720235535167726
+        ],
+        [
+          -0.10714287967951222,
+          -0.10726202907153164,
+          -0.10702382868156347,
+          0.0,
+          -0.10707869016358743
+        ],
+        [
+          -0.10708336553756428,
+          -0.10720231749529256,
+          -0.10726198782730138,
+          -0.10720776204288311,
+          0.0
+        ]
+      ],
+      "residual": 5.763068500197477e-08,
+      "is_equilibrium": true
+    },
+    "n": 5,
+    "r": 0.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": 1.6,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 5,
+    "r": 1.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 5,
+    "r": 1.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 5,
+    "r": 2.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 5,
+    "r": 3.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 5,
+    "r": 5.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 36.5,
+      "std_iterations": 0.5,
+      "min_iterations": 36.0,
+      "max_iterations_val": 37.0,
+      "mean_final_efforts": [
+        0.4500000460815693,
+        0.4500000494829542,
+        0.4500000433689519,
+        0.4500000483010769,
+        0.4500000495747697,
+        0.4500000489472803,
+        0.4500000512289157,
+        0.45000004663456117,
+        0.45000005136971544,
+        0.45000004927885834
+      ],
+      "std_final_efforts": [
+        3.2381645594765903e-07,
+        3.223034169445284e-07,
+        3.2511381818227155e-07,
+        3.253842678414197e-07,
+        3.240913083319132e-07,
+        3.2184417984722347e-07,
+        3.2439505483698393e-07,
+        3.256644140078651e-07,
+        3.230828741354322e-07,
+        3.241523742816299e-07
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 0.45000004842686536,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 4.500000484268654,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.45000004842686536,
+      "over_dissipation": false,
+      "per_player_effort": [
+        0.4500000460815693,
+        0.4500000494829542,
+        0.4500000433689519,
+        0.4500000483010769,
+        0.4500000495747697,
+        0.4500000489472803,
+        0.4500000512289157,
+        0.45000004663456117,
+        0.45000005136971544,
+        0.45000004927885834
+      ],
+      "per_player_share": [
+        0.09999999947882315,
+        0.10000000023468639,
+        0.09999999887601935,
+        0.09999999997204702,
+        0.10000000025508983,
+        0.10000000011564775,
+        0.10000000062267778,
+        0.09999999960171022,
+        0.10000000065396661,
+        0.10000000018933175
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": -0.6666397106709518,
+          "imag": 0.0
+        },
+        {
+          "real": 0.07415160268029873,
+          "imag": 8.66104765833057e-05
+        },
+        {
+          "real": 0.07415160268029873,
+          "imag": -8.66104765833057e-05
+        },
+        {
+          "real": 0.07415354602720235,
+          "imag": 0.0
+        },
+        {
+          "real": 0.07395281800314539,
+          "imag": 0.0
+        },
+        {
+          "real": 0.07403040407342287,
+          "imag": 5.563721526919874e-05
+        },
+        {
+          "real": 0.07403040407342287,
+          "imag": -5.563721526919874e-05
+        },
+        {
+          "real": 0.07401416678701087,
+          "imag": 0.0
+        },
+        {
+          "real": 0.07407758317307515,
+          "imag": 1.8567244180332746e-05
+        },
+        {
+          "real": 0.07407758317307515,
+          "imag": -1.8567244180332746e-05
+        }
+      ],
+      "spectral_radius": 0.6666397106709518,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.07407413671418323,
+          -0.07407416887540136,
+          -0.0740740440624636,
+          -0.0741240819782189,
+          -0.07412354793818449,
+          -0.07407419954309197,
+          -0.07410761453830722,
+          -0.07414778232851232,
+          -0.07410764550214982
+        ],
+        [
+          -0.07404075500734003,
+          0.0,
+          -0.07407410709565337,
+          -0.07411415189535181,
+          -0.07404053633059665,
+          -0.07407396845461028,
+          -0.07407423156803022,
+          -0.07407416895866809,
+          -0.07407420009070947,
+          -0.07402421487002468
+        ],
+        [
+          -0.07402470013962696,
+          -0.07410830924759731,
+          0.0,
+          -0.07407426196205086,
+          -0.07404056619642868,
+          -0.07400705874100726,
+          -0.07407410611504889,
+          -0.07410777103534477,
+          -0.07407423190748091,
+          -0.0741141236893032
+        ],
+        [
+          -0.0740406614391313,
+          -0.07404066117156755,
+          -0.07407426355050245,
+          0.0,
+          -0.07414118542770892,
+          -0.0740405977134399,
+          -0.07404050301641191,
+          -0.07410761394322768,
+          -0.07414127958267053,
+          -0.07410767792760103
+        ],
+        [
+          -0.07419132019099424,
+          -0.07407420075934129,
+          -0.07407410568344969,
+          -0.07407413934291379,
+          0.0,
+          -0.07407413652072686,
+          -0.07407407387500492,
+          -0.07407416946659512,
+          -0.07407419881950411,
+          -0.07407426336925854
+        ],
+        [
+          -0.07404056758698302,
+          -0.07404065996114689,
+          -0.07407420091310718,
+          -0.07404059802180435,
+          -0.07404059769928456,
+          0.0,
+          -0.07404069238687566,
+          -0.07414118550903276,
+          -0.07414127982775226,
+          -0.07414128011280202
+        ],
+        [
+          -0.07414118528865349,
+          -0.07414124839595065,
+          -0.07404069236078542,
+          -0.07404062906364012,
+          -0.07407413652266975,
+          -0.07404062877803524,
+          0.0,
+          -0.07410767655730827,
+          -0.0740738811788681,
+          -0.07407419921557618
+        ],
+        [
+          -0.07407416852346066,
+          -0.07404059792271694,
+          -0.0740070277235964,
+          -0.07402415012875678,
+          -0.0740741997737408,
+          -0.07400712123601642,
+          -0.07395750909606462,
+          0.0,
+          -0.07410758226301367,
+          -0.07407410670874065
+        ],
+        [
+          -0.07410770854200094,
+          -0.07414793171928985,
+          -0.07400709160777212,
+          -0.0741076781743481,
+          -0.07414124851252407,
+          -0.07404056634797412,
+          -0.07400052745604994,
+          -0.0740337685367713,
+          0.0,
+          -0.07404056614535842
+        ],
+        [
+          -0.07407410690580524,
+          -0.0739570697774831,
+          -0.07407423185058198,
+          -0.0739911963462762,
+          -0.07410777075140523,
+          -0.07410758294802128,
+          -0.0740069956486981,
+          -0.07400702824789922,
+          -0.07400059026025622,
+          0.0
+        ]
+      ],
+      "residual": 9.273657919361966e-08,
+      "is_equilibrium": true
+    },
+    "n": 10,
+    "r": 0.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": 0.9,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 10,
+    "r": 1.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 10,
+    "r": 1.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 10,
+    "r": 2.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 10,
+    "r": 3.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 10,
+    "r": 5.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 1.0,
+      "mean_iterations": 70.0,
+      "std_iterations": 0.0,
+      "min_iterations": 70.0,
+      "max_iterations_val": 70.0,
+      "mean_final_efforts": [
+        0.2375003766733382,
+        0.23750037800719975,
+        0.23750037770468513,
+        0.23750037801911855,
+        0.23750037740273006,
+        0.2375003794983121,
+        0.2375003780310146,
+        0.23750037887135117,
+        0.2375003799313383,
+        0.23750037880447597,
+        0.23750037691444756,
+        0.23750037735023785,
+        0.2375003781023252,
+        0.2375003783293595,
+        0.2375003791208971,
+        0.23750037815219943,
+        0.23750037809450647,
+        0.23750037780292982,
+        0.2375003758936715,
+        0.23750038098084952
+      ],
+      "std_final_efforts": [
+        9.444721592591552e-09,
+        9.9578406570241e-09,
+        1.1116022177439642e-08,
+        9.989072057530568e-09,
+        9.845521711814188e-09,
+        9.824075195999012e-09,
+        7.984714175316156e-09,
+        9.38022765247384e-09,
+        1.043017248930994e-08,
+        9.161484355077855e-09,
+        8.650372921759432e-09,
+        1.0793345230189403e-08,
+        1.0173808441387655e-08,
+        1.2687603720773152e-08,
+        8.965670738968924e-09,
+        1.0712106503375188e-08,
+        9.373534357279546e-09,
+        9.10788366114773e-09,
+        8.015945009843935e-09,
+        9.458370816452513e-09
+      ],
+      "n_converged": 10,
+      "n_diverged": 0
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": 0.23750037818424938,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": 4.750007563684988,
+      "prize_value": 10.0,
+      "dissipation_ratio": 0.47500075636849876,
+      "over_dissipation": false,
+      "per_player_effort": [
+        0.2375003766733382,
+        0.23750037800719975,
+        0.23750037770468513,
+        0.23750037801911855,
+        0.23750037740273006,
+        0.2375003794983121,
+        0.2375003780310146,
+        0.23750037887135117,
+        0.2375003799313383,
+        0.23750037880447597,
+        0.23750037691444756,
+        0.23750037735023785,
+        0.2375003781023252,
+        0.2375003783293595,
+        0.2375003791208971,
+        0.23750037815219943,
+        0.23750037809450647,
+        0.23750037780292982,
+        0.2375003758936715,
+        0.23750038098084952
+      ],
+      "per_player_share": [
+        0.049999999681913945,
+        0.04999999996272645,
+        0.04999999989903926,
+        0.04999999996523567,
+        0.04999999983546988,
+        0.05000000027664434,
+        0.04999999996774009,
+        0.05000000014465278,
+        0.05000000036780761,
+        0.05000000013057381,
+        0.049999999732673724,
+        0.049999999824418905,
+        0.04999999998275283,
+        0.05000000003054945,
+        0.05000000019718868,
+        0.04999999999325265,
+        0.04999999998110678,
+        0.04999999991972232,
+        0.04999999951777385,
+        0.05000000058875698
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": [
+        {
+          "real": -0.8182136560967179,
+          "imag": 0.0
+        },
+        {
+          "real": 0.04296034367095023,
+          "imag": 2.930306350302299e-05
+        },
+        {
+          "real": 0.04296034367095023,
+          "imag": -2.930306350302299e-05
+        },
+        {
+          "real": 0.043091820721845045,
+          "imag": 0.00010134459904411826
+        },
+        {
+          "real": 0.043091820721845045,
+          "imag": -0.00010134459904411826
+        },
+        {
+          "real": 0.04316986729333938,
+          "imag": 0.0
+        },
+        {
+          "real": 0.043138869780967204,
+          "imag": 4.8336070159238214e-05
+        },
+        {
+          "real": 0.043138869780967204,
+          "imag": -4.8336070159238214e-05
+        },
+        {
+          "real": 0.04314041446149074,
+          "imag": 0.0
+        },
+        {
+          "real": 0.043030835650718066,
+          "imag": 7.70058966994905e-05
+        },
+        {
+          "real": 0.043030835650718066,
+          "imag": -7.70058966994905e-05
+        },
+        {
+          "real": 0.043057287919009465,
+          "imag": 6.982381170013214e-05
+        },
+        {
+          "real": 0.043057287919009465,
+          "imag": -6.982381170013214e-05
+        },
+        {
+          "real": 0.043018794086313,
+          "imag": 4.3307893696801314e-05
+        },
+        {
+          "real": 0.043018794086313,
+          "imag": -4.3307893696801314e-05
+        },
+        {
+          "real": 0.04305092855534459,
+          "imag": 5.1848800034034466e-05
+        },
+        {
+          "real": 0.04305092855534459,
+          "imag": -5.1848800034034466e-05
+        },
+        {
+          "real": 0.04302904237628315,
+          "imag": 0.0
+        },
+        {
+          "real": 0.04308828559765472,
+          "imag": 1.7166639613176305e-05
+        },
+        {
+          "real": 0.04308828559765472,
+          "imag": -1.7166639613176305e-05
+        }
+      ],
+      "spectral_radius": 0.8182136560967179,
+      "is_stable": true,
+      "jacobian": [
+        [
+          0.0,
+          -0.043079900760722184,
+          -0.043062104071461015,
+          -0.04304431498708879,
+          -0.043097681077940736,
+          -0.043044349060804864,
+          -0.04306209522173451,
+          -0.04302347231644384,
+          -0.04307988348634581,
+          -0.04304433215876954,
+          -0.043062096736633824,
+          -0.04309764662244672,
+          -0.04311543597063569,
+          -0.043044331841662085,
+          -0.04307987457000592,
+          -0.043062103804036043,
+          -0.04307987409927136,
+          -0.04309762207000331,
+          -0.04302630615335897,
+          -0.043044340737601626
+        ],
+        [
+          -0.04307989148106181,
+          0.0,
+          -0.043044306075883686,
+          -0.04304429651242255,
+          -0.04304433315352937,
+          -0.043012586520012906,
+          -0.043026534670980464,
+          -0.04305873121155298,
+          -0.04307986748303602,
+          -0.04304432347002537,
+          -0.043023314439260295,
+          -0.04304434040772661,
+          -0.04304432244945285,
+          -0.043012271986336024,
+          -0.04304430613777862,
+          -0.04304432244945285,
+          -0.04306211190713757,
+          -0.04302314402752002,
+          -0.04304432434779545,
+          -0.04310392916693137
+        ],
+        [
+          -0.04309765616342584,
+          -0.04300853482117536,
+          0.0,
+          -0.043062130364317795,
+          -0.043116974829120774,
+          -0.04307990107824597,
+          -0.043044297837196176,
+          -0.04304077129424962,
+          -0.043097689236830966,
+          -0.043062094422651485,
+          -0.04307984913410254,
+          -0.043062112501800774,
+          -0.04307989228361428,
+          -0.04306212044072807,
+          -0.04309765593513623,
+          -0.04307990018132454,
+          -0.04302656122987444,
+          -0.04307989249289132,
+          -0.04302657898553249,
+          -0.04302654273064451
+        ],
+        [
+          -0.04306212937913364,
+          -0.04302315272944809,
+          -0.04307989294169898,
+          0.0,
+          -0.043044332064123024,
+          -0.043079901500408274,
+          -0.0430832611983448,
+          -0.04310105588157173,
+          -0.04311884439931388,
+          -0.04302654392899149,
+          -0.043079927235377985,
+          -0.04302287711311278,
+          -0.043044314940598204,
+          -0.043044315740375115,
+          -0.043062087061595276,
+          -0.04309946951692098,
+          -0.04302314428994899,
+          -0.043062094538392236,
+          -0.043044332419116836,
+          -0.04302655148530817
+        ],
+        [
+          -0.04304107672604059,
+          -0.04306212004049267,
+          -0.04304430557836499,
+          -0.043022990101758994,
+          0.0,
+          -0.04302316148660975,
+          -0.04304431512461767,
+          -0.04307987553090395,
+          -0.04304092592097771,
+          -0.04306211254509947,
+          -0.04304431414817652,
+          -0.043062113561231095,
+          -0.043062130623971205,
+          -0.04307990887561983,
+          -0.04307989192431835,
+          -0.04307990125546532,
+          -0.043040926070441486,
+          -0.04306210404439933,
+          -0.043062104424511936,
+          -0.04300879007782451
+        ],
+        [
+          -0.04307988316840569,
+          -0.043079867145667,
+          -0.04306210396196527,
+          -0.043044323987666853,
+          -0.04307990863872599,
+          0.0,
+          -0.04304432352026296,
+          -0.043115553289706815,
+          -0.04306211977889637,
+          -0.043079883545603964,
+          -0.043062077672577935,
+          -0.043062129858749985,
+          -0.043079891998842074,
+          -0.04304430652080556,
+          -0.043079874282041825,
+          -0.04307988337046628,
+          -0.04308000130598874,
+          -0.04307987600718963,
+          -0.04306208615176751,
+          -0.043026534397449266
+        ],
+        [
+          -0.04310103997790446,
+          -0.04300878036476082,
+          -0.043062112772556414,
+          -0.04302654343383202,
+          -0.04308329463409896,
+          -0.04307986528756999,
+          0.0,
+          -0.04304092508331444,
+          -0.04306211157462577,
+          -0.04306210284397068,
+          -0.04307989222685413,
+          -0.04304064894239875,
+          -0.04307985880164708,
+          -0.04306210315400046,
+          -0.04306207789254087,
+          -0.04308326992941622,
+          -0.04310674808383683,
+          -0.04304431535082561,
+          -0.04303549495432909,
+          -0.043044339973074296
+        ],
+        [
+          -0.04309767156707642,
+          -0.04307987521282505,
+          -0.04311543511798441,
+          -0.04304432417029854,
+          -0.04300874770324844,
+          -0.043119109512939374,
+          -0.043044341370706306,
+          0.0,
+          -0.04308298592923174,
+          -0.043079892741720055,
+          -0.043062108611024184,
+          -0.0430620893543446,
+          -0.043079883296358895,
+          -0.043044094408255816,
+          -0.043062096115186486,
+          -0.043079891790814034,
+          -0.043062077514371154,
+          -0.04304433329910736,
+          -0.04304093287930052,
+          -0.043101362343233335
+        ],
+        [
+          -0.04304431550417517,
+          -0.043062095319434134,
+          -0.04311883663871616,
+          -0.0430443491082669,
+          -0.0430798841294425,
+          -0.04309767349803181,
+          -0.04311900550058509,
+          -0.04307988305460783,
+          0.0,
+          -0.0431155529936936,
+          -0.04304433238095292,
+          -0.04306211217359109,
+          -0.04302653485111415,
+          -0.04298735676492223,
+          -0.04302655272931307,
+          -0.04304429788313165,
+          -0.04306206047883151,
+          -0.043136600309805796,
+          -0.043079865654915034,
+          -0.043044332726509836
+        ],
+        [
+          -0.04307989179955704,
+          -0.043079858787630515,
+          -0.043062078662758095,
+          -0.043079883371021394,
+          -0.04300876366756164,
+          -0.043093946715538095,
+          -0.043062112556756814,
+          -0.04310104119637423,
+          -0.043062084685579226,
+          0.0,
+          -0.0430621291372438,
+          -0.043097664504531424,
+          -0.04311699177750791,
+          -0.04306210392310746,
+          -0.04308299525357859,
+          -0.043079892352586885,
+          -0.043083421100991476,
+          -0.043062120924924084,
+          -0.04306209483884634,
+          -0.04306207849372664
+        ],
+        [
+          -0.04301229059950259,
+          -0.04306211388874689,
+          -0.04304546535480654,
+          -0.043005516911364415,
+          -0.04309765542582142,
+          -0.043079875210743385,
+          -0.043044315096723317,
+          -0.04309765521751582,
+          -0.043062113448821014,
+          -0.04306207816732107,
+          0.0,
+          -0.04304430565830105,
+          -0.043026297552877533,
+          -0.04304434135988163,
+          -0.04306209470242769,
+          -0.04304434096089523,
+          -0.043083411598870164,
+          -0.04311894657091839,
+          -0.04306211321817218,
+          -0.043044314826800344
+        ],
+        [
+          -0.04309767191624156,
+          -0.04307990026528516,
+          -0.04306208650301432,
+          -0.043062103478879475,
+          -0.043005365463204846,
+          -0.043083428983852506,
+          -0.04307986711999309,
+          -0.04307990957048066,
+          -0.043023298105104045,
+          -0.04306211229280129,
+          -0.043062086523831,
+          0.0,
+          -0.04304416942935626,
+          -0.04309765534977114,
+          -0.04307987476582151,
+          -0.043005081262208776,
+          -0.04313473792220055,
+          -0.04308340424516918,
+          -0.0431013626200952,
+          -0.04309769710623054
+        ],
+        [
+          -0.04306211158558922,
+          -0.043044332371516024,
+          -0.04308339611139775,
+          -0.04306212987096244,
+          -0.04307987560348478,
+          -0.04306210262192608,
+          -0.04306209478722097,
+          -0.04304429708099552,
+          -0.043044297392413076,
+          -0.04311883626887311,
+          -0.04310104845404092,
+          -0.043044322789319876,
+          0.0,
+          -0.04306210401692131,
+          -0.04304122080953573,
+          -0.043026552753876755,
+          -0.04302655206401192,
+          -0.043079891302871015,
+          -0.04304434957567079,
+          -0.0430620681499175
+        ],
+        [
+          -0.04311553745764893,
+          -0.043079900459157855,
+          -0.04304106974967666,
+          -0.04304106125522152,
+          -0.04302299946177176,
+          -0.04309765582786093,
+          -0.043099186835542674,
+          -0.04306213899130581,
+          -0.043044349280490245,
+          -0.043044340489328,
+          -0.043062086797500974,
+          -0.043062103161078134,
+          -0.04304432308200242,
+          0.0,
+          -0.04304093606022826,
+          -0.043079883550183634,
+          -0.043136591367792,
+          -0.04304434921276664,
+          -0.0430443404290984,
+          -0.04307988415927974
+        ],
+        [
+          -0.04306212051858246,
+          -0.04306208627652882,
+          -0.04307986542384987,
+          -0.04306211212349228,
+          -0.04306209484925468,
+          -0.04309138754696659,
+          -0.04307989231428419,
+          -0.043062102796786204,
+          -0.04304431620292178,
+          -0.043097763647308746,
+          -0.043044314111955494,
+          -0.0430443144149076,
+          -0.04304433989633013,
+          -0.043062111812491054,
+          0.0,
+          -0.04309767259181227,
+          -0.043062113147950574,
+          -0.043062095070744176,
+          -0.043058689223195744,
+          -0.043097723761852696
+        ],
+        [
+          -0.04306210376448435,
+          -0.0430798910514055,
+          -0.043023186521583844,
+          -0.04306209480442943,
+          -0.04304434869262715,
+          -0.04306207727844876,
+          -0.043044314268219384,
+          -0.043062122585401395,
+          -0.04304432255173215,
+          -0.043044315318629144,
+          -0.04306207870494657,
+          -0.043044306284605614,
+          -0.04307990929875358,
+          -0.04309768899327579,
+          -0.04302654306954009,
+          0.0,
+          -0.04306535551696275,
+          -0.0430798922194989,
+          -0.043062105641732705,
+          -0.04307990896971123
+        ],
+        [
+          -0.04307986776197956,
+          -0.043023178512990055,
+          -0.04300851851644002,
+          -0.04307988440019814,
+          -0.04306210471511281,
+          -0.04310119045364744,
+          -0.043022844567341144,
+          -0.043062104281293166,
+          -0.043044323640999714,
+          -0.04303062336258797,
+          -0.043097654381517886,
+          -0.043062094928913185,
+          -0.04309764648255862,
+          -0.04307985850951965,
+          -0.04304433148111716,
+          -0.04306209479568642,
+          0.0,
+          -0.043041344348215015,
+          -0.043062078754351495,
+          -0.043097771967736426
+        ],
+        [
+          -0.04307991013502907,
+          -0.04304079719644668,
+          -0.04309768216276741,
+          -0.04304434104624363,
+          -0.04307988413180172,
+          -0.043101165369407196,
+          -0.04309775503419852,
+          -0.0430621118786881,
+          -0.043115570503576034,
+          -0.04309764702101679,
+          -0.043079885947155144,
+          -0.043079875700629294,
+          -0.04304433231350687,
+          -0.04306210413335595,
+          -0.04311897998863143,
+          -0.043044332122270955,
+          -0.04307989206337379,
+          0.0,
+          -0.043044315568984436,
+          -0.04302655077171232
+        ],
+        [
+          -0.04307987516203235,
+          -0.04307988379165714,
+          -0.04309764847804573,
+          -0.0430621028495218,
+          -0.04307988478905375,
+          -0.043062103075452184,
+          -0.0431543467520382,
+          -0.04304433174784824,
+          -0.0430798996320417,
+          -0.04306210458244116,
+          -0.04307984179247523,
+          -0.04307989370858553,
+          -0.043062094467754296,
+          -0.043062146743021744,
+          -0.04300550110609066,
+          -0.04307988373475821,
+          -0.04302330674180651,
+          -0.043097637601468314,
+          0.0,
+          -0.04309765579011335
+        ],
+        [
+          -0.04304431633254032,
+          -0.04304433135593951,
+          -0.04304434132601983,
+          -0.04306212000121853,
+          -0.04308326112631908,
+          -0.04304091604165813,
+          -0.04304433264379822,
+          -0.04311544448465851,
+          -0.043023290735582385,
+          -0.04306212129074257,
+          -0.04306211236163512,
+          -0.043079866191846644,
+          -0.043079875341472146,
+          -0.0430620943328622,
+          -0.04302629745503913,
+          -0.04309764721822015,
+          -0.043079882977863665,
+          -0.04306211309479865,
+          -0.04302314473917298,
+          0.0
+        ]
+      ],
+      "residual": 6.946576072142108e-07,
+      "is_equilibrium": true
+    },
+    "n": 20,
+    "r": 0.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": 0.475,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 20,
+    "r": 1.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 20,
+    "r": 1.5
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 20,
+    "r": 2.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 20,
+    "r": 3.0
+  },
+  {
+    "stats": {
+      "convergence_rate": 0.0,
+      "mean_iterations": null,
+      "std_iterations": null,
+      "min_iterations": null,
+      "max_iterations_val": null,
+      "mean_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "std_final_efforts": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "n_converged": 0,
+      "n_diverged": 10
+    },
+    "benchmark": {
+      "analytical_x_star": null,
+      "simulated_mean": null,
+      "absolute_error": null,
+      "relative_error_pct": null
+    },
+    "dissipation": {
+      "total_effort": null,
+      "prize_value": 10.0,
+      "dissipation_ratio": null,
+      "over_dissipation": false,
+      "per_player_effort": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "per_player_share": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "eigenvalue": {
+      "eigenvalues": null,
+      "spectral_radius": null,
+      "is_stable": null,
+      "jacobian": null,
+      "residual": null,
+      "is_equilibrium": false
+    },
+    "n": 20,
+    "r": 5.0
+  }
+]
