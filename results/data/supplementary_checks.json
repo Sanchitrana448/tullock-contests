@@ -1,0 +1,240 @@
+{
+  "recovery_by_rule": {
+    "4": {
+      "spectral_radius": 1.0000007561784532,
+      "analytical_x_star": 1.875,
+      "analytical_total": 7.5,
+      "equilibrium_residual": 7.025908521640645e-09,
+      "largest_converging_lambda": 0.5,
+      "inertial_sweep": {
+        "0.5": {
+          "converged": true,
+          "iterations": 36
+        },
+        "0.4": {
+          "converged": true,
+          "iterations": 47
+        },
+        "0.3": {
+          "converged": true,
+          "iterations": 65
+        },
+        "0.2": {
+          "converged": true,
+          "iterations": 101
+        },
+        "0.1": {
+          "converged": true,
+          "iterations": 210
+        },
+        "0.05": {
+          "converged": true,
+          "iterations": 427
+        }
+      },
+      "sync": {
+        "converged": false,
+        "iterations": 3000
+      },
+      "async": {
+        "converged": true,
+        "iterations": 13
+      },
+      "inertial": {
+        "converged": true,
+        "iterations": 36
+      }
+    },
+    "5": {
+      "spectral_radius": 1.5001211104838639,
+      "analytical_x_star": 1.6,
+      "analytical_total": 8.0,
+      "equilibrium_residual": 2.4059649827989915e-09,
+      "largest_converging_lambda": 0.5,
+      "inertial_sweep": {
+        "0.5": {
+          "converged": true,
+          "iterations": 39
+        },
+        "0.4": {
+          "converged": true,
+          "iterations": 51
+        },
+        "0.3": {
+          "converged": true,
+          "iterations": 70
+        },
+        "0.2": {
+          "converged": true,
+          "iterations": 109
+        },
+        "0.1": {
+          "converged": true,
+          "iterations": 226
+        },
+        "0.05": {
+          "converged": true,
+          "iterations": 460
+        }
+      },
+      "sync": {
+        "converged": false,
+        "iterations": 3000
+      },
+      "async": {
+        "converged": true,
+        "iterations": 19
+      },
+      "inertial": {
+        "converged": true,
+        "iterations": 39
+      }
+    },
+    "10": {
+      "spectral_radius": 3.999800551613306,
+      "analytical_x_star": 0.9,
+      "analytical_total": 9.0,
+      "equilibrium_residual": 3.955436311819938e-09,
+      "largest_converging_lambda": 0.3,
+      "inertial_sweep": {
+        "0.5": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.4": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.3": {
+          "converged": true,
+          "iterations": 77
+        },
+        "0.2": {
+          "converged": true,
+          "iterations": 119
+        },
+        "0.1": {
+          "converged": true,
+          "iterations": 246
+        },
+        "0.05": {
+          "converged": true,
+          "iterations": 499
+        }
+      },
+      "sync": {
+        "converged": false,
+        "iterations": 3000
+      },
+      "async": {
+        "converged": true,
+        "iterations": 21
+      },
+      "inertial": {
+        "converged": false,
+        "iterations": 3000
+      }
+    },
+    "20": {
+      "spectral_radius": 8.998063324806179,
+      "analytical_x_star": 0.475,
+      "analytical_total": 9.5,
+      "equilibrium_residual": 1.538265115286208e-08,
+      "largest_converging_lambda": 0.1,
+      "inertial_sweep": {
+        "0.5": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.4": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.3": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.2": {
+          "converged": false,
+          "iterations": 3000
+        },
+        "0.1": {
+          "converged": true,
+          "iterations": 251
+        },
+        "0.05": {
+          "converged": true,
+          "iterations": 509
+        }
+      },
+      "sync": {
+        "converged": false,
+        "iterations": 3000
+      },
+      "async": {
+        "converged": true,
+        "iterations": 24
+      },
+      "inertial": {
+        "converged": false,
+        "iterations": 3000
+      }
+    }
+  },
+  "asymmetric_two_player": {
+    "valuations": [
+      2.0,
+      18.0
+    ],
+    "equilibrium": [
+      0.18000023642376484,
+      1.620001282469659
+    ],
+    "residual": 8.041890927901196e-07,
+    "spectral_radius": 1.333351056546229,
+    "inertial_lambda": 0.3,
+    "inertial_iterations": 65
+  },
+  "solver_comparison": {
+    "r=3.0,n=2": {
+      "golden": 40.0,
+      "bounded": 25.0,
+      "scan_and_refine": 0.0
+    },
+    "r=3.0,n=3": {
+      "golden": 75.0,
+      "bounded": 33.333333333333336,
+      "scan_and_refine": 0.0
+    },
+    "r=3.0,n=5": {
+      "golden": 93.33333333333333,
+      "bounded": 13.333333333333334,
+      "scan_and_refine": 0.0
+    },
+    "r=3.0,n=7": {
+      "golden": 100.0,
+      "bounded": 10.0,
+      "scan_and_refine": 0.0
+    },
+    "r=5.0,n=2": {
+      "golden": 40.0,
+      "bounded": 13.333333333333334,
+      "scan_and_refine": 0.0
+    },
+    "r=5.0,n=3": {
+      "golden": 71.66666666666667,
+      "bounded": 25.0,
+      "scan_and_refine": 0.0
+    },
+    "r=5.0,n=5": {
+      "golden": 93.33333333333333,
+      "bounded": 18.333333333333332,
+      "scan_and_refine": 0.0
+    },
+    "r=5.0,n=7": {
+      "golden": 98.33333333333333,
+      "bounded": 13.333333333333334,
+      "scan_and_refine": 0.0
+    }
+  }
+}
